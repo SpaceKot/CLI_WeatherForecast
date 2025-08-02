@@ -1,5 +1,5 @@
 {
-  "name": "cli-weather-forcust",
+  "name": "cli-weather-forecast",
   "version": "1.0.0",
   "description": "CLI for getting weather",
   "main": "index.js",
