@@ -2,10 +2,13 @@
   "name": "cli-weather-forecast",
   "version": "1.0.0",
   "description": "CLI for getting weather",
-  "main": "index.js",
-  "bin": "./index.js",
+  "main": "weather.js",
+  "bin": {
+    "weather": "weather.js"
+  },
+  "type": "module",
   "scripts": {
-    "start": "node index.js",
+    "start": "node weather.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
@@ -18,10 +21,15 @@
   "homepage": "",
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/SpaceKot/CLI_WeatherForecast#"
   },
   "bugs": {
     "url": "",
     "email": "onorovmax2005@gmail.com"
+  },
+  "dependencies": {
+    "axios": "^1.11.0",
+    "chalk": "^5.5.0",
+    "dedent-js": "^1.0.1"
   }
 }
